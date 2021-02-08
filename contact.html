@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="application.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <article id="main-wrapper">
+        <header id="header">
+
+            <img src="www/Assets/full_logo_white.png" alt="logo" id="logo-h">
+            <nav id="nav">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="about.html">About</a></div>
+                <div><a href="#">Contact</a></div>
+            </nav>
+
+        </header>
+
+        <main id="main">
+
+            <img src="www/Assets/logo_mrcoffee.png" alt="logo" id="logo-dark">
+
+            <h1 class="title4">Tell us everything!</h1>
+
+            <form method="POST" action="" class="form" name="myform" >
+                <div class="input">
+                    <label class="label">First Name *</label>
+                    <input type="text" name="firstname" required>
+                </div>
+                <div class="input">
+                    <label class="label">Last Name *</label>
+                    <input type="text" name="lastname" required>
+                </div>
+                <div class="input">
+                    <label class="label">Email address *</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="input">
+                    <label class="label">Phone number</label>
+                    <input type="tel" name="phone">
+                </div>
+                <div class="input">
+                    <label class="label">Message *</label>
+                    <textarea placeholder="Type your message here!" name="message" required></textarea>
+                </div>
+                <input type="submit" id="submit-btn" value="Submit">
+            </form>
+
+            <h1 class="title2">We are waiting for you!</h1>
+
+            <div class="address-div">
+                <h4>Mr.Coffee</h4>
+                <p>15 place Jules Guesde</p>
+                <p>75006 Paris</p><br>
+                <p>Tel : +33 9 46 25 78 45</p>
+                <p>Mail : contact@mr-coffee.com</p><br><br>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.124709480616!2d2.318581415673599!3d48.83675987928532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671b5590a00b1%3A0x2711ee015c1c2b2e!2s15%20Rue%20Jules%20Guesde%2C%2075014%20Paris%2C%20France!5e0!3m2!1sen!2sau!4v1612279199532!5m2!1sen!2sau"
+                    class="map" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                    aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <!-- Modal content -->
+
+            <div id="modal">
+
+                <div class="modal-content">
+                    <img src="www/Assets/logo_dark.png" alt="dark-logo" id="dark-logo1">
+                    <div class="modal-txt">
+                        <h2 class="modal-h">Thank you</h2>
+                        <h2 class="modal-h">Your message has been sent!</h2>
+                        <p class="modal-h">We will try to answer them as best as possible as soon as possible.
+                            See you soon at Mr. Coffee</p>
+                        <button id="close-btn">Close</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </main>
+
+        <footer id="footer">
+            <img src="www/Assets/logo_blanc.png" alt="logo" id="logo-f">
+
+            <div id="social-icon">
+                <h5 class="social-head">Follow us on:</h5>
+                <div class="main-social">
+                    <div><img src="www/Assets/logo_facebook.png" alt="facebook" class="icon"></div>
+                    <div><img src="www/Assets/logo_twitter.png" alt="twitter" class="icon"></div>
+                    <div><img src="www/Assets/logo_linkedin.png" alt="linkedin" class="icon"></div>
+                </div>
+            </div>
+            <div class="empty-div"></div>
+        </footer>
+    </article>
+</body>
+
+</html>

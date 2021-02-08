@@ -1,0 +1,163 @@
+/* @media query */
+@media (max-width: 800px){
+
+    a {
+        font-size: small;
+    }
+
+    h2, h3, h5, p{
+        font-size: small;
+    }
+
+    #logo-h{
+        height: 37px;
+    }
+
+    #logo-f{
+        height: 42px;
+    }
+
+    #social-icon{
+        width: 23%;
+    }
+
+    #logo-dark {
+        height: 130px;
+    }
+
+    #title > h1 {
+        font-size: small;
+    }
+
+    .activity {
+        flex-direction: column;
+    }
+
+    .div-activ{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8%;
+    }
+
+    #pic-section1{
+        width: 39%;
+    }
+    
+    #pic-section2{
+        width: 45%;
+    }
+
+    .address-div{
+        width: 70%;
+    }
+    
+}
+
+
+@media (max-width: 375px){
+
+    #nav{
+        width: 45%;
+    }
+    a {
+        font-size: x-small;
+    }
+    #logo-h{
+        height: 30px;
+    }
+
+    #title {
+        display: none;
+    }
+    #social-icon{
+        width: 30%;
+    }
+    #logo-f{
+        height: 40px;
+    }
+
+    .empty-div {
+        width: 2%;
+    }
+
+    #logo-dark {
+        height: 100px;
+    }
+
+    #shop-pic {
+        width: 100%;
+    }
+
+    h2, h3, h5, p{
+        font-size: smaller;
+    }
+
+    .activity {
+        flex-direction: column;
+    }
+
+    .div-activ{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8%;
+    }
+    .icon-activ{
+        height: 50px;
+    }
+
+    #button {
+        width: 100px;
+    }
+
+    #open-logo{
+        height: 55px;
+        padding-bottom: 15px;
+    }
+
+    .program-div{
+        flex-direction: column;
+    }
+
+    .program{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    .program > br{
+        display: none;
+    }
+
+    .section{
+        flex-direction: column;
+    }
+
+    .txt-section{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #pic-section1{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #pic-section2{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .address-div{
+        width: 70%;
+    }
+
+    #close-btn{
+        font-size: smaller;
+        font-weight: bold;
+    }
+}
