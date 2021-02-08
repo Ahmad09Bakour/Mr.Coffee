@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
         let phone = document.myfrom.phone.value;
         let message = document.myfrom.message.value;
 
-        
     }
 
 })
